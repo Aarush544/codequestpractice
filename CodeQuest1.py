@@ -1,9 +1,10 @@
 import sys
 
-testcases = int(sys.stdin.readline().strip())
+testcases = int(input().strip())
 messages = []
 
-for line in sys.stdin:
+for case in range(testcases):
+    line = input("").strip()
     messages.append(line.strip())
 
 
@@ -17,3 +18,4 @@ for message in messages:
         i += 1
     print(decodedMessage)
             
+
